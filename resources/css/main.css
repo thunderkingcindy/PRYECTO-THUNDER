@@ -1,0 +1,153 @@
+/* COLORES DE LA PALETA */
+.color-button{
+    color: #30282f;
+    font-family: Georgia;
+}
+
+.containerPet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.peticion{
+    text-align: center;
+    font-size: 115px;
+}
+
+.scroll-hidden {
+    overflow: hidden;
+}
+
+.texto{
+    font-family: Georgia;
+}
+
+.banner{
+    color: #573645;
+    font-size: 30px;
+    font-family: Georgia;
+}
+/* COLORES DE LA PALETA */
+
+body {
+    font-family: Georgia;
+    text-align: center;
+    background-image: url('../img/2346.jpg');
+    /* background-size: cover; */
+
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    height: 100vh;
+    overflow: hidden;
+}
+
+footer{
+    font-family: Georgia;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.h11 {
+    font-family: Georgia;
+    font-size: 55px;
+}
+
+/* Estilo del carrusel (.carrusel) */
+.carrusel {
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Estilo de los slides (.slide) */
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: cambioImagen 15s linear infinite;
+    /* Cambia las imágenes cada 15 segundos */
+    opacity: 0;
+}
+
+/* Establece el tamaño de la imagen */
+.imagen-circular img {
+    width: 200px;
+    /* Ajusta el tamaño deseado */
+    height: 200px;
+    /* Ajusta el tamaño deseado */
+    border-radius: 70%;
+    /* Aplica un radio de borde del 50% para que sea un círculo */
+    display: block;
+    /* Para centrar la imagen horizontalmente en el contenedor */
+    margin: 0 auto;
+    /* Para centrar la imagen horizontalmente en el contenedor */
+}
+
+
+/* Configuración de la animación (cambioImagen) */
+@keyframes cambioImagen {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    20%,
+    80% {
+        opacity: 1;
+    }
+}
+
+/* Retardo de animación para cada slide */
+.slide:nth-child(1) {
+    animation-delay: 0s;
+    /* Primer slide comienza inmediatamente */
+}
+
+.slide:nth-child(2) {
+    animation-delay: 5s;
+    /* Segundo slide comienza después de 5 segundos */
+}
+
+.slide:nth-child(3) {
+    animation-delay: 10s;
+    /* Tercer slide comienza después de 10 segundos */
+}
+
+.slide:nth-child(4) {
+    animation-delay: 15s;
+    /* Cuarto slide comienza después de 15 segundos */
+}
+
+/* Estilo de las imágenes dentro de los slides */
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.circle-frame {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #f0f0f0; /* Color de fondo opcional */
+}
+
+.circle-frame img {
+    max-width: 100%;
+    max-height: 100%;
+}

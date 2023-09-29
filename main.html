@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYSI</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- Cambiamos "navbar-light" a "navbar-dark" y el fondo a negro -->
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active banner" aria-current="page" href="vistas/fechaInicio.html"><i
+                         class="fa-solid fa-calendar color-banner"></i> Días juntos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active banner" aria-current="page" href=""><i
+                         class="fa-solid fa-heart banner"></i> <s>Aniversario</s> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active banner" aria-current="page" href=""><i
+                         class="fa-solid fa-question banner"></i> <s>Proximamente</s> </a>
+                    </li>
+                    <!-- Puedes agregar más elementos <li> personalizados aquí -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container rounded p-4 overflow-auto scroll-hidden" style="max-height: 500px;">
+        <div class="row justify-content-center" >
+            <div class="col-md-6">
+                <div class="scroll-hidden" > <!-- Agregamos overflow-auto y max-height -->
+                    <h1 class="h11">Bienvenid@s a nuestra página web</h1>
+                    <div class="carrusel">
+                        <div class="slide imagen-circular">
+                            <img src="resources/img/carousel1.jpeg" alt="Imagen 1">
+                        </div>
+                        <div class="slide imagen-circular">
+                            <img src="resources/img/carousel2.jpeg" alt="Imagen 2">
+                        </div>
+                        <div class="slide imagen-circular">
+                            <img src="resources/img/carousel3.jpeg" alt="Imagen 3">
+                        </div>
+                        <div class="slide imagen-circular">
+                            <img src="resources/img/carousel4.jpeg" alt="Imagen 4">
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-light btn-lg mt-3"><a href="vistas/peticion.html" style="color: #CCC8FA;">Dame Click <br> 29-09-2023</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- <iframe src="vistas/fechainicio.html" width="500" height="300"></iframe> -->
+
+    <footer class=" text-dark fixed-bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    
+                    <h3 style="font-size: 30px;"><i style="color: #f7b786;" class="fa-solid fa-bolt-lightning"></i>
+                        Redes sociales <i style="color: #f7b786;" class="fa-solid fa-bolt-lightning"></i></h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/rayito1207/" target="_blank">
+                                <i class="fab fa-facebook fa-2x color-button"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.tiktok.com/@sir_rayo" target="_blank">
+                                <i class="fab fa-tiktok fa-2x color-button"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/nacho_reyna_rayo/" target="_blank">
+                                <i class="fab fa-instagram fa-2x color-button"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h3 style="font-size: 30px;"><i style="color: #3c9db0;" class="fa-solid fa-water"></i>
+                        Redes sociales <i style="color: #3c9db0;" class="fa-solid fa-water"></i></h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/cindy.delao27" target="_blank">
+                                <i class="fab fa-facebook fa-2x color-button"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.tiktok.com/@cindy.dart111" target="_blank">
+                                <i class="fab fa-tiktok fa-2x color-button"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/cindy.ydr/" target="_blank">
+                                <i class="fab fa-instagram fa-2x color-button"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="funciones/inicio.js"></script>
+
+</html>

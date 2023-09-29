@@ -1,0 +1,30 @@
+modulos
+.- peliculas que hemos visto
+.- salidas (fotos)
+.- aniversario
+
+
+<div class="container">
+        <div  class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="rounded p-4" >
+                    <h1 class="h11" style="color: #3C9DB0;">Bienvenid@s a nuestra página web</h1>
+                    <div class="carrusel">
+                        <div class="slide imagen-circular">
+                            <img src="resources/img/carousel1.jpeg" alt="Imagen 1">
+                        </div>
+                        <div class="slide imagen-circular">
+                            <img src="resources/img/carousel2.jpeg" alt="Imagen 2">
+                        </div>
+                        <div class="slide imagen-circular">
+                            <img src="resources/img/carousel3.jpeg" alt="Imagen 3">
+                        </div>
+                        <div class="slide imagen-circular">
+                            <img src="resources/img/carousel4.jpeg" alt="Imagen 4">
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-light btn-lg"><a style="color: #CCC8FA;" href="vistas/peticion.html">Dame Click <br> 29-09-2023</a></button>
+            </div>
+        </div>
+    </div>
