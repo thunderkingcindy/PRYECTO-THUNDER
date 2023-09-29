@@ -80,9 +80,9 @@ footer{
 
 /* Establece el tamaño de la imagen */
 .imagen-circular img {
-    width: 150px;
+    width: 100px;
     /* Ajusta el tamaño deseado */
-    height: 150px;
+    height: 100px;
     /* Ajusta el tamaño deseado */
     border-radius: 70%;
     /* Aplica un radio de borde del 50% para que sea un círculo */
